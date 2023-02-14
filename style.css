@@ -1,0 +1,68 @@
+body{
+    background-color: cadetblue;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    /* height: 500px; */
+}
+
+.box{
+    border: 1px solid black;
+    height: 100%;
+}
+
+#forms{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#degree{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+}
+
+#res{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+}
+
+input:focus{
+    background-color: lightblue;
+    border: 3px solid #555;
+}
+
+
+button[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.btn{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

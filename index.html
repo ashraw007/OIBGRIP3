@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+</head>
+<body>
+    <h1 id="text">Temperature Convertor</h1>
+      <div class="box">
+        <form id="forms">
+            <div style="display: flex; justify-content: center; flex-direction: column;">
+                <h1><label for="Degree">Degree</label></h1>
+                <input type="text" id="degree" value="">
+            </div>
+           
+            <div style="display: flex; justify-content: center; flex-direction: column;">
+                <h1><label for="Degree">Type</label></h1>
+                <select id="degree">
+                    <option id="fa" value="fa">Fahrenheit</option>
+                    <option id="ce" value="ce">Celsius</option>
+                </select>    
+            </div>
+        </form>
+
+        <form>
+            <div style="display: flex; justify-content: center; flex-direction: column;">
+                <h1><label for="Degree">Result</label></h1>
+                <input type="text" id="res">
+            </div>
+        </form>
+
+            <div class="btn">
+                <h1><button id="result" type="submit" style="font-size: 30px;" onclick="tempConvert()">SUBMIT</button></h1>
+            </div> 
+    
+            <div class="btn">
+                <h1><button id="reset" type="submit" style="font-size: 30px;" onclick="clearForm()">RESET</button></h1>
+            </div>
+      </div>
+      <script src="app.js"></script>
+ </body>
+</html>
